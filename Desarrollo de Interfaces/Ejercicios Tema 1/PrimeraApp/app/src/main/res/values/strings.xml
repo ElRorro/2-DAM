@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PrimeraApp</string>
+    <string name="mitexto">Título de la aplicación</string>
+    <string name="subTitle">Subtitulo</string>
+</resources>

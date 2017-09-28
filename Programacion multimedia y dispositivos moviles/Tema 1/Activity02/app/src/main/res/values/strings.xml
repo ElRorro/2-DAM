@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Activity02</string>
+    <string name="primeraPantalla">Primera Pantalla</string>
+    <string name="boton1">Pasar a Segunda Pantala</string>
+    <string name="boton2">Salir de la App</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TestTextView</string>
+    <string name="miTextView">Lista de Animales</string>
+</resources>

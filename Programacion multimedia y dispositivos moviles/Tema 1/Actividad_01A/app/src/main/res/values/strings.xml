@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Actividad_01A</string>
+    <string name="primeraPantalla"> Primera Pantalla</string>
+    <string name="segundaPantalla"> Segunda Pantalla</string>
+    <string name="terceraPantalla"> Tercera Pantalla</string>
+    <string name="cuartaPantalla"> Cuarta Pantalla</string>
+    <string name="quintaPantalla"> Quinta Pantalla</string>
+    <string name="sextaPantalla"> Sexta Pantalla</string>
+    <string name="boton1">Pasar a Tercera Pantalla</string>
+    <string name="boton2">Pasar a Quinta Pantalla</string>
+    <string name="boton3">Pasar a Sexta Pantalla</string>
+    <string name="boton4">Pasar a Primera Pantalla</string>
+    <string name="boton5">Pasar a Segunda Pantalla</string>
+    <string name="boton6">Pasar a Cuarta Pantalla</string>
+</resources>

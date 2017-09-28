@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EjercicioT115</string>
+    <string name="textoRotativo">Animación de Rotación</string>
+    <string name="textoGirando">TEXTO GIRANDO</string>
+</resources>
