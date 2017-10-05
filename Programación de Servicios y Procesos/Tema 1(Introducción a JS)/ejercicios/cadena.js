@@ -2,25 +2,28 @@
 	console.log('Argumento ' + i + ":" + process.argv[i]);
 };*/
 
-if (procces.argv.length < 3) {
-	procces.exit(1);
+if (process.argv.length < 3) {
+	process.exit(1);
 }
 
 console.log('Cadena leida: ' + process.argv[2]);
-var cadena = procces.argv[2];
+const cadena = process.argv[2];
 
-function pocesarCadena(valorCadena){
+function procesarCadena(valorCadena){
 	var _cadena = valorCadena;
 	//todo lo que se define aqui, es privado.
 	return {
-		longitudCadena: function(){return _cadena.length; },
-		cadenaEsNumero: function(){return !(isNaN(_cadena)); },
-		cadenaEnMayuscula: function() { return _cadena.toUpperCase(); }
+		longitudCadena: function(){ return _cadena.length; },
+		cadenaEsNumero: function(){ return !(isNaN(_cadena)); },
+		cadenaEnMayuscula: function() { return _cadena.toUpperCase(); },
+		cadenaAlReves: function() { return _cadena.split('').reverse().join(''); },
+		esPalindromo: function() { return _cadena === this.cadenaAlReves(); }
 	};
 }
 
-var cadena1 = procesarCadena(cadena);
-console.log("Longitud de la cadena " + cadena + " es": " + cadena1.procesarCadena());
-console.log("La cadena " + cadena + " ¿Es un número? ": " + cadena1.cadenaEsNumero());
-console.log("La cadena " + cadena + " en mayúscula ": " + cadena1.cadenaEnMayuscula());
-
+const cadena1 = procesarCadena(cadena);
+console.log("Longitud de la cadena " + cadena + " es: " + cadena1.longitudCadena());
+console.log("La cadena " + cadena + " ¿Es un número?:  " + cadena1.cadenaEsNumero());
+console.log("La cadena " + cadena + " en mayúscula: " + cadena1.cadenaEnMayuscula());
+console.log("La cadena " + cadena + " al reves " + cadena1.cadenaAlReves());
+console.log("La cadena " + cadena + "¿es Palindromo? " + cadena1.esPalindromo());

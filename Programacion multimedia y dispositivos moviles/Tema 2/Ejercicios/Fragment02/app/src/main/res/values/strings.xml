@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fragment02</string>
+    <string name="textFragment">FRAGMENTO1</string>
+    <string name="textBtn">MOSTRAR EL FRAGMENTO</string>
+</resources>
