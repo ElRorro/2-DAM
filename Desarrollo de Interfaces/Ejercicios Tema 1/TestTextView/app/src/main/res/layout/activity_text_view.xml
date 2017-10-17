@@ -1,25 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/miLinearLayout"
-    android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/miLinearLayout"
     android:orientation="vertical"
     >
-
 
     <TextView
         android:id="@+id/miTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lista de animales"
-        android:layout_gravity="center"
-        android:textColor="@color/redColor"
-        android:textSize="18sp"
-        android:typeface="serif"
-        android:textStyle="bold|italic"
-        android:shadowColor="@color/shadowText"
+        android:layout_weight="0.36"
+        android:shadowColor="@color/ColorShadow"
         android:shadowDx="10"
         android:shadowDy="10"
-        android:shadowRadius="0"/>
+        android:shadowRadius="2"
+        android:text="@string/miTextView"
+        android:textColor="@color/colorRojo"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnDelete"
+        android:onClick="deleteAnimals"
+        />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAdd"/>
+
+    <Button
+        android:id="@+id/btnChangeTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnChangeTittle"/>
+
+    <Button
+        android:id="@+id/btnChangeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnChangeButton"/>
+
 </LinearLayout>

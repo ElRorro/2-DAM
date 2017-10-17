@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProyectoBotones</string>
+    <string name="Decrementar">Decrement</string>
+    <string name="Incrementar">Increment</string>
+    <string name="numero">Number</string>
+</resources>

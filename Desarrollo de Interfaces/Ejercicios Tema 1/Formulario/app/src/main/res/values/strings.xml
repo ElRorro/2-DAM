@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Formulario</string>
+    <string name="nombre">Nombre</string>
+    <string name="edad">Edad</string>
+    <string name="email">Email</string>
+    <string name="artist">Artistas</string>
+    <string name="cityAndCountry">País y Ciudad</string>
+    <string name="editNombre">Escribe tu nombre...</string>
+    <string name="editEdad">Escribre tu edad...</string>
+    <string name="editEmail">Estricre tu email...</string>
+    <string name="textAuto">Elige un Artista</string>
+    <string name="multiAuto">Elige País y Ciudad</string>
+    <string name="btnLeer">Leer</string>
+</resources>

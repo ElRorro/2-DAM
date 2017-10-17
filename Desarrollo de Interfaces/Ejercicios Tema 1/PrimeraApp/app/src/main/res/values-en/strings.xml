@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FirstApp</string>
-    <string name="mitexto">App Tittle</string>
-    <string name="subTitle">Sub Title</string>
+    <string name="mitexto">Firts APP</string>
 </resources>

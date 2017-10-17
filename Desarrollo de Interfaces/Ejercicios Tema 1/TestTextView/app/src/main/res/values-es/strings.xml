@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TestTextView</string>
+    <string name="btnDelete" translatable="false">Borrar</string>
+    <string name="miTextView">Hola, soy un Text View</string>
+    <string name="btnAdd" translatable="false">Añadir</string>
+    <string name="btnChangeButton" translatable="false">Cambiar Boton</string>
+    <string name="btnChangeTittle" translatable="false">Cambiar Titulo</string>
+</resources>

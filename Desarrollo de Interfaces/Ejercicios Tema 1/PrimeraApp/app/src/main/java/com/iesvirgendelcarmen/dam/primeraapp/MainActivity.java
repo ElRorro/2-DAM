@@ -6,30 +6,30 @@ import android.os.Bundle;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //TextView mitexto = (TextView) findViewById(R.id.mitexto);
-        //mitexto.setText("text changed");
-        //mitexto.append("\n nuevo texto");
 
-        TextView title = (TextView) findViewById(R.id.textViewTitle);
-        title.setText(R.string.mitexto);
+        /*TextView mitexto = (TextView) findViewById(R.id.mitexto);
 
-        title.setTextColor(ResourcesCompat.getColor(getResources(), R.color.colorTittle, null));
+        mitexto.setText("Text Changed");
+        mitexto.append("\n Nueva Línea");*/
 
-        //Creamos un subtitulo para añadirlo al LinearLayout
-        TextView subTitle = new TextView (this);
-        subTitle.setText(R.string.subTitle);
+        TextView text = (TextView)findViewById(R.id.textViewTittle);
+        text.setText(R.string.mitexto);
 
-        //Para añadir al layout el textView anterior
-        LinearLayout linearLayout = (LinearLayout) findViewById(R.id.miLinearLayout);
-        linearLayout.addView(subTitle);
+        text.setTextColor(ResourcesCompat.getColor(getResources(), R.color.colorTitulo,null));
+
+        TextView subTitle = new TextView(this);
+        subTitle.setText(R.string.subTitulo);
+
+
+        LinearLayout ll = (LinearLayout) findViewById(R.id.miLinearLayout);
+        ll.addView(subTitle);
+
 
     }
 }

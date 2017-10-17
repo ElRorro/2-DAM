@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PrimeraApp</string>
-    <string name="mitexto">Título de la aplicación</string>
-    <string name="subTitle">Subtitulo</string>
+    <string name="app_name">Primera APP</string>
+    <string name="mitexto" translatable="false">Titulo de la APP</string>
+    <string name="subTitulo"> Subtitulo</string>
 </resources>

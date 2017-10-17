@@ -2,26 +2,46 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/miLinearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.iesvirgendelcarmen.dam.primeraapp.MainActivity">
 
     <TextView
-        android:id="@+id/textViewTitle"
+        android:id="@+id/textViewTittle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/mitexto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/colorTitulo"
         android:textSize="50sp"
         android:typeface="serif"
-        android:textStyle="bold|italic"
-        android:shadowColor="@color/colorShadow"
-        android:shadowRadius="10"
-        android:shadowDx="20"
-        android:shadowDy="22"
+        android:textStyle="italic"
+        android:shadowColor="@color/colorPrimary"
+        android:shadowRadius="5"
+        android:shadowDx="10"
+        android:shadowDy="15"
+        />
+
+    <TextView
+    android:id="@+id/miLinearLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/mitexto"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:textColor="@color/colorTitulo"
+    android:textSize="50sp"
+    android:typeface="serif"
+    android:textStyle="italic"
+    android:shadowColor="@color/colorPrimary"
+    android:shadowRadius="5"
+    android:shadowDx="10"
+    android:shadowDy="15"
         />
 
 </LinearLayout>
