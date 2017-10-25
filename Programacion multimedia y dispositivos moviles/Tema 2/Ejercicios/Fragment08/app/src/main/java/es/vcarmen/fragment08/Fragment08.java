@@ -10,11 +10,13 @@ public class Fragment08 extends FragmentActivity implements Cabecera.CabeceraLis
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_fragment08);
+
         if(savedInstanceState != null){
             return;
         }
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fragment08);
+
         Cabecera primerFragmento = new Cabecera();
         primerFragmento.setArguments(getIntent().getExtras());
         getSupportFragmentManager().beginTransaction().add(R.id.contenedor, primerFragmento).commit();
