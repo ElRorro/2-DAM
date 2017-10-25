@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Fragment09</string>
+    <string name="fragPaginado1">FRAGMENTO PAGINADO 1</string>
+    <string name="fragPaginado2">FRAGMENTO PAGINADO 2</string>
+</resources>
