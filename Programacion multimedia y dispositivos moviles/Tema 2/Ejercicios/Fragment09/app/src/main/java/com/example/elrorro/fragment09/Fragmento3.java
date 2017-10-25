@@ -13,6 +13,8 @@ import android.widget.ArrayAdapter;
  */
 
 public class Fragmento3 extends ListFragment {
+    int tipoLista = (int) (Math.random()*3);
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragmento3, container, false);
@@ -21,7 +23,7 @@ public class Fragmento3 extends ListFragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        int tipoLista = (int) (Math.random()*3);
+
         switch (tipoLista) {
             case 0:
                 setListAdapter(new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, Contenido.pintores));
