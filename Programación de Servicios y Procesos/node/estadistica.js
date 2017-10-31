@@ -54,7 +54,7 @@ module.exports = function estadistica (coleccion) {
         for (var i = 0; i < _coleccion.length; i++) {
           promedio = promedio + _coleccion[i];
         }
-        return promedio/2;
+        return promedio/this.numeroElementos();
       }
     }
 }
