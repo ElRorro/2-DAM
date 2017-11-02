@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Acitividad01</string>
+    <string name="btnCancelar">CANCELAR</string>
+    <string name="btnAceptar">ACEPTAR</string>
+</resources>
