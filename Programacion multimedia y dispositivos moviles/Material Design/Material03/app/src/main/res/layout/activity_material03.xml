@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#889EF9"
+    tools:context="es.vcarmen.material03.Material03">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:layout_anchorGravity="top|end"
+        android:src="@drawable/emoticon"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="180dp"
+        android:visibility="invisible"
+        app:backgroundTint="#E6ED23"
+        >
+    </android.support.design.widget.FloatingActionButton>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:layout_anchorGravity="top|end"
+        android:src="@drawable/ic_cliente"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="100dp"
+        android:visibility="invisible"
+        app:backgroundTint="@color/colorAccent"
+        >
+    </android.support.design.widget.FloatingActionButton>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        app:layout_anchorGravity="top|end"
+        android:src="@drawable/ic_correo"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        app:fabSize="normal"
+        app:backgroundTint="#76FC57"
+        >
+    </android.support.design.widget.FloatingActionButton>
+
+</FrameLayout>

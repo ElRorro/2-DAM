@@ -1,22 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#26CCDE"
-    android:orientation="vertical"
-    tools:context="es.vcarmen.material02.activity_material02">
+    android:background="#95b2ec">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+    </android.support.design.widget.AppBarLayout>
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="bottom|end"
+        android:layout_gravity="center_vertical|start"
+        app:layout_anchorGravity="top|end"
         android:src="@drawable/emoticon"
         android:layout_margin="16dp"
+        app:fabSize="normal"
+        app:backgroundTint="@color/colorAccent"
+        app:layout_anchor="@+id/contenedor"
         >
-
     </android.support.design.widget.FloatingActionButton>
+    
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/contenedor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/bottom_sheet_behavior"
 
-</LinearLayout>
+        >
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>
