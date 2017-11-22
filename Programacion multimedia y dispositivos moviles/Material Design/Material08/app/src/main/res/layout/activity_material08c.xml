@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.vcarmen.material08.Material08"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/tarjeta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@android:color/white"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardCornerRadius="6dp"
+        card_view:cardElevation="10dp"
+        android:layout_weight="2"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/barcelona"
+            android:scaleType="centerCrop"
+            android:layout_margin="32dp"
+            />
+
+        <TextView
+            android:id="@+id/texto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/texto3"
+            android:layout_gravity="bottom"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:textColor="#cf040e"
+            android:background="#8c8fa6dc"
+            />
+
+    </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/tarjeta2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="@android:color/white"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="10dp"
+            android:layout_weight="2"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/madrid"
+                android:scaleType="centerCrop"
+                android:layout_margin="32dp"
+
+                />
+
+            <TextView
+                android:id="@+id/texto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texto4"
+                android:layout_gravity="bottom"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:textColor="#cf040e"
+                android:background="#8c8fa6dc"
+                />
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/tarjeta3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="@android:color/white"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="10dp"
+            android:layout_weight="2"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/atmadrid"
+                android:scaleType="centerCrop"
+                android:layout_margin="32dp"
+
+                />
+
+            <TextView
+                android:id="@+id/texto3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texto5"
+                android:layout_gravity="bottom"
+                android:textStyle="bold"
+                android:textSize="23sp"
+                android:textAlignment="center"
+                android:textColor="#cf040e"
+                android:background="#8c8fa6dc"
+                />
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/tarjeta4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="@android:color/white"
+            card_view:cardUseCompatPadding="true"
+            card_view:cardCornerRadius="6dp"
+            card_view:cardElevation="10dp"
+            android:layout_weight="2"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/sevilla"
+                android:scaleType="centerCrop"
+                android:layout_margin="32dp"
+
+                />
+
+            <TextView
+                android:id="@+id/texto4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texto6"
+                android:layout_gravity="bottom"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:textColor="#cf040e"
+                android:background="#8c8fa6dc"
+                />
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>

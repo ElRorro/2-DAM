@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Material06</string>
+    <string name="addTab">Añadir Tab</string>
+    <string name="removeTab">Eliminar Tab</string>
+</resources>
