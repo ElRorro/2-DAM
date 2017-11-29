@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.vcarmen.material09.Material09"
+    android:background="#a1c7f2">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/tarjeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/barra1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#15ce68"
+                app:popupTheme="@style/Theme.AppCompat.Light"
+                app:subtitleTextAppearance="@style/subtitulo"
+                app:theme="@style/tarjeta"
+                app:titleTextAppearance="@style/titulo"></android.support.v7.widget.Toolbar>
+
+            <ImageView
+                android:id="@+id/imagen1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/cuadro2" />
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="tocado"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:text="@string/text1"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/imagen2"
+                    android:background="@android:color/transparent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/mas"
+                    />
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16dp"
+                    android:text="@string/textLinear3"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
