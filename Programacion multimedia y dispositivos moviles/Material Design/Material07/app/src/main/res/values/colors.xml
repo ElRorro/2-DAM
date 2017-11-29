@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backGroundTab">#CBDCDF</color>
+    <color name="coloTabIndicator">#070D0E</color>
+    <color name="colorTabSelected">#93E0EB</color>
+    <color name="colorTabText">#070D0E</color>
+    <color name="colorLinearLayout">#64EAFC</color>
+    <color name="backFragmento1">#353FF3</color>
+    <color name="backFragmento2">#E37BF1</color>
+    <color name="backFragmento3">#98F169</color>
+    <color name="tvTextColorFragment1">#FFFFFF</color>
+    <color name="tvTextColorFragment2">#65F319</color>
+    <color name="tvTextColorFragment3">#000000</color>
+</resources>
