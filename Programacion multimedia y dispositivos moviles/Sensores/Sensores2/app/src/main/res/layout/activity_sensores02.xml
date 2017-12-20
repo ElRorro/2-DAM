@@ -50,12 +50,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/colorDatos"
-        android:text="@string/tvAcX"
+        android:text="@string/tvAcY"
         android:textSize="25dp"/>
 
-
     <TextView
-        android:id="@+id/tvEjeZ"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -64,11 +62,12 @@
         android:textSize="25dp"/>
 
     <TextView
-        android:id="@+id/tvAcZ"
+        android:id="@+id/tvEjeZ"
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/colorDatos"        android:text="@string/tvAcZ"
+        android:textColor="@color/colorDatos"
+        android:text="@string/tvAcZ"
         android:textSize="25dp"/>
 
     <TextView
