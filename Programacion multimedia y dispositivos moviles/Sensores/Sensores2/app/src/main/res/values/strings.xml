@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sensores2</string>
+    <string name="tvTitulo">SENSOR DE ACELERACIÓN</string>
+    <string name="tvEjeX">EJE X</string>
+    <string name="tvAcX">Aceleracion_X</string>
+    <string name="tvEjeY">EJE Y</string>
+    <string name="tvAcY">Aceleracion_Y</string>
+    <string name="tvEjeZ">EJE Z</string>
+    <string name="tvAcZ">Aceleracion_Z</string>
+    <string name="tvModuloAc">MÓDULO DE ACELERACIÓN</string>
+    <string name="tvAc">Aceleración</string>
+    <string name="tvAcMax">ACELERACIÓN MÁXIMA</string>
+    <string name="tvAc_Max">Aceleración_max</string>
+    <string name="tvGravedad">GRAVEDAD ESTANDAR</string>
+    <string name="tvGr">Gravedad_Standard</string>
+</resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="es.vcarmen.sensores2.Sensores02"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/colorCabecera"
+        android:text="@string/tvTitulo"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorCabecera"
+        android:text="@string/tvEjeX"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/tvEjeX"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorDatos"
+        android:text="@string/tvAcX"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorCabecera"
+        android:text="@string/tvEjeY"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/tvEjeY"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorDatos"
+        android:text="@string/tvAcX"
+        android:textSize="25dp"/>
+
+
+    <TextView
+        android:id="@+id/tvEjeZ"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorCabecera"
+        android:text="@string/tvEjeZ"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/tvAcZ"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorDatos"        android:text="@string/tvAcZ"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/tvModuloAc"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorCabecera"
+        android:text="@string/tvModuloAc"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/tvAc"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorDatos"
+        android:text="@string/tvAc"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/tvAcMax"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorCabecera"
+        android:text="@string/tvAcMax"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/tvAc_Max"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorDatos"
+        android:text="@string/tvAc_Max"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/tvGravedad"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorCabecera"
+        android:text="@string/tvGravedad"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:id="@+id/tvGr"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorDatos"
+        android:text="@string/tvGr"
+        android:textSize="25dp"/>
+
+</LinearLayout>
