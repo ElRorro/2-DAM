@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sensores5</string>
+    <string name="titulo">SENSOR DE ORIENTACION</string>
+    <string name="azimut">AZIMUT</string>
+    <string name="verticalidad">VERTICALIDAD</string>
+    <string name="inclinacionLateral">INCLINACIÓN LATERAL</string>
+    <string name="orientacion">ORIENTACION</string>
+    <string name="numeroLecturas">NUMERO DE LECTURAS</string>
+</resources>

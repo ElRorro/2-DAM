@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.elrorro.sensores5.Sensores5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:gravity="center"
+        android:textColor="@color/colorTitulo"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/azimut"
+        android:textColor="@color/colorSubtitulos"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/tvAzimut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/azimut"
+        android:textColor="@color/colorDatos"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verticalidad"
+        android:textColor="@color/colorSubtitulos"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/tvVerticalidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verticalidad"
+        android:textColor="@color/colorDatos"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inclinacionLateral"
+        android:textColor="@color/colorSubtitulos"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/tvInclinacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/inclinacionLateral"
+        android:textColor="@color/colorDatos"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/orientacion"
+        android:textColor="@color/colorSubtitulos"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/tvOrientacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/orientacion"
+        android:textColor="@color/colorDatosOrientacion"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/numeroLecturas"
+        android:textColor="@color/colorSubtitulos"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/tvNumeroLecturas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/numeroLecturas"
+        android:textColor="@color/colorDatos"
+        android:textStyle="italic"/>
+
+
+
+</LinearLayout>
