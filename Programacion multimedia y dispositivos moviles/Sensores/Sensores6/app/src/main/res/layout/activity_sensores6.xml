@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="es.vcarmen.sensores6.Sensores6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SENSOR DE PROXIMIDAD"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:layout_gravity="center"
+        android:textColor="@color/colorTittle"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROXIMIDAD"
+        android:textColor="@color/colorSubtitulos"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:layout_margin="3dp"/>
+
+    <TextView
+        android:id="@+id/proximidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proximidad"
+        android:textColor="@color/colorDatos"
+        android:textStyle="bold|italic"
+        android:layout_margin="3dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:id="@+id/orientacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orientacion"
+        android:textColor="#FF0000"
+        android:textStyle="bold|italic"
+        android:layout_margin="3dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NUMERO DE LECTURAS"
+        android:textColor="@color/colorSubtitulos"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:layout_margin="3dp"/>
+
+    <TextView
+        android:id="@+id/lecturas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cero"
+        android:textColor="@color/colorDatos"
+        android:textStyle="bold|italic"
+        android:layout_margin="3dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+</LinearLayout>

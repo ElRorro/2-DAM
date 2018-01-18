@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="es.vcarmen.sensores7.Sensores7">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SENSOR DE ILUMINACION"
+        android:textStyle="bold"
+        android:textSize="23dp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LUZ AMBIENTE (LUX)"
+        android:textColor="@color/colorSubtitulos"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"
+        android:layout_margin="3dp"/>
+
+    <TextView
+        android:id="@+id/cantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad"
+        android:textColor="@color/colorDatos"
+        android:textStyle="bold|italic"
+        android:layout_margin="3dp"/>
+
+    <TextView
+        android:id="@+id/iluminacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iluminación"
+        android:textColor="#FF0000"
+        android:textStyle="bold|italic"
+        android:layout_margin="3dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NUMERO DE LECTURAS"
+        android:textColor="@color/colorSubtitulos"
+        android:layout_margin="3dp"
+        android:textStyle="bold|italic"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/lecturas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cero"
+        android:textColor="@color/colorDatos"
+        android:layout_margin="3dp"
+        android:textStyle="bold|italic"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+</LinearLayout>
