@@ -1,0 +1,9 @@
+Antes de nada debemos ejecutar dentro de la carpeta del proyecto el siguiente comando
+npm install -g typescript
+
+Para generar de typeScript a javaScript
+ponemos: tsc archivos.ts ...
+ponemos: tsc Persona.ts main.ts
+
+También podemos indicar la versión
+ponemos: tsc Persona.ts main.ts --target es5
