@@ -30,7 +30,7 @@ public class Sensores5 extends AppCompatActivity implements SensorEventListener 
 
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
         orienta = sensorManager.getDefaultSensor(Sensor.TYPE_ORIENTATION);
-        runOnUiThread(new CambiaTexto());
+        sensorManager.registerListener(this, orienta, SensorManager.SENSOR_DELAY_NORMAL);
     }
 
     @Override
@@ -50,12 +50,17 @@ public class Sensores5 extends AppCompatActivity implements SensorEventListener 
         else if (azimut < 337) orientacion = "NOROESTE";
         else orientacion = "NORTE";
 
-        if (vertical < 50) orientacion = "VERTICAL ARRIBA";
+        if (vertical < -50) orientacion = "VERTICAL ARRIBA";
         if (vertical > 50) orientacion = "VERTICAL ABAJO";
 
-        if (lateral < 50) orientacion = "LATERAL IZQUIERDA";
-        if (lateral > 50) orientacion = "LATERAL DERECHA";
+        if (lateral > 50) orientacion = "LATERAL IZQUIERDA";
+        if (lateral < -50) orientacion = "LATERAL DERECHA";
 
+        tvAzimut.setText(""+azimut);
+        tvVertical.setText(""+vertical);
+        tvLateral.setText(""+lateral);
+        tvOrientacion.setText(""+orientacion);
+        tvContador.setText(""+contador);
 
     }
 
@@ -64,7 +69,7 @@ public class Sensores5 extends AppCompatActivity implements SensorEventListener 
 
     }
 
-    class CambiaTexto implements Runnable {
+    /*class CambiaTexto implements Runnable {
         @Override
         public void run() {
             tvAzimut.setText(""+azimut);
@@ -85,5 +90,5 @@ public class Sensores5 extends AppCompatActivity implements SensorEventListener 
     protected void onPostResume() {
         super.onPostResume();
         sensorManager.registerListener(this, orienta, SensorManager.SENSOR_DELAY_NORMAL);
-    }
+    }*/
 }

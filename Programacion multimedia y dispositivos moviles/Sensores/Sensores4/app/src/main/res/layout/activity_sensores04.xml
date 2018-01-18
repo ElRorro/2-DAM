@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="com.example.elrorro.sensores4.Sensores04">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:gravity="center"
+        android:textColor="@color/colorTitulo"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/campobx"
+        android:textColor="@color/colorSubtitulos"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"/>
+
+    <TextView
+        android:id="@+id/tvCampoX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/campox"
+        android:textColor="@color/colorDatos"
+        android:textStyle="italic|bold"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/campoby"
+        android:textColor="@color/colorSubtitulos"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"/>
+
+    <TextView
+        android:id="@+id/tvCampoY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/campoy"
+        android:textColor="@color/colorDatos"
+        android:textStyle="italic|bold"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/campobz"
+        android:textColor="@color/colorSubtitulos"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"/>
+
+    <TextView
+        android:id="@+id/tvCampoZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/campoz"
+        android:textColor="@color/colorDatos"
+        android:textStyle="italic|bold"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/modulo"
+        android:textColor="@color/colorSubtitulos"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"/>
+
+    <TextView
+        android:id="@+id/tvCampoMagnetico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/modulo1"
+        android:textColor="@color/colorDatos"
+        android:textStyle="italic|bold"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cMax"
+        android:textColor="@color/colorSubtitulos"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"/>
+
+    <TextView
+        android:id="@+id/tvCampoTerrestre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cTerrrestre"
+        android:textColor="@color/colorDatos"
+        android:textStyle="italic|bold"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cMinMax"
+        android:textColor="@color/colorSubtitulos"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"/>
+
+    <TextView
+        android:id="@+id/tvCampoTierra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cTierra"
+        android:textColor="@color/colorDatos"
+        android:textStyle="italic|bold"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contador"
+        android:textColor="@color/colorSubtitulos"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"/>
+
+    <TextView
+        android:id="@+id/tvContador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contador"
+        android:textColor="@color/colorDatos"
+        android:textStyle="italic|bold"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+</LinearLayout>

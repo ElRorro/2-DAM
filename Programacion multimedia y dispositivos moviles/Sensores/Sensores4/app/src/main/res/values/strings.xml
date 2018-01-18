@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sensores4</string>
+    <string name="titulo">SENSOR DE CAMPO MAGNÉTICO</string>
+    <string name="campobx">CAMPO B_X</string>
+    <string name="campox">CAMPO_X</string>
+    <string name="campoby">CAMPO B_Y</string>
+    <string name="campoy">CAMPO_y</string>
+    <string name="campobz">CAMPO B_Z</string>
+    <string name="campoz">CAMPO_Z</string>
+    <string name="modulo">B MÓDULO</string>
+    <string name="modulo1">CAMPO MAGNÉTICO TOTAL</string>
+    <string name="cMax">CAMPO MÁXIMO</string>
+    <string name="cTerrrestre">CAMPOR TERRESTRE</string>
+    <string name="cMinMax">CAMPO TIERRA MÍNIMO Y MÁXIMO</string>
+    <string name="cTierra">CAMPO_TIERRA</string>
+    <string name="contador">CONTADOR</string>
+</resources>
