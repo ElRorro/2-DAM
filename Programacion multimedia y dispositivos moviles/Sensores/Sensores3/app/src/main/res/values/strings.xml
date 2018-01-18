@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sensores3</string>
+    <string name="titulo">SENSOR DE GIROSCOPIO</string>
+    <string name="ejex">VELOCIDAD EJE X</string>
+    <string name="ejey">VELOCIDAD EJE Y</string>
+    <string name="ejez">VELOCIDAD EJE Z</string>
+    <string name="contador">CONTADOR</string>
+</resources>
+

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="com.example.elrorro.sensores3.Sensores03">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo"
+        android:gravity="center"
+        android:textColor="@color/colorTitulo"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ejex"
+        android:textColor="@color/colorSubtitulos"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"/>
+
+    <TextView
+        android:id="@+id/tvEjeX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ejex"
+        android:textColor="@color/colorDatos"
+        android:textStyle="italic|bold"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ejey"
+        android:textColor="@color/colorSubtitulos"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"/>
+
+    <TextView
+        android:id="@+id/tvEjeY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ejey"
+        android:textColor="@color/colorDatos"
+        android:textStyle="italic|bold"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ejez"
+        android:textColor="@color/colorSubtitulos"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"/>
+
+    <TextView
+        android:id="@+id/tvEjeZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ejez"
+        android:textColor="@color/colorDatos"
+        android:textStyle="italic|bold"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contador"
+        android:textColor="@color/colorSubtitulos"
+        android:textSize="20dp"
+        android:textStyle="italic|bold"/>
+
+    <TextView
+        android:id="@+id/tvContador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/contador"
+        android:textColor="@color/colorDatos"
+        android:textStyle="italic|bold"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+</LinearLayout>
