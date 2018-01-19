@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#acccd4"
+    tools:context="es.vcarmen.dialogo06.Dialogo06">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="DIÁLOGOS CON PROGRESO"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:id="@+id/texto"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="MOSTRAR DIALOGO"/>
+
+</LinearLayout>
