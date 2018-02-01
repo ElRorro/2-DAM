@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="es.vcarmen.sonido02.Sonido02"
+    android:background="#32e9b8">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SONIDOS CON MEDIAPLAYER"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CANCIÓN"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="360dp"
+        android:src="@drawable/vitru"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:id="@+id/tvDuracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DURACIÓN"
+        android:layout_gravity="center"/>
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btnPrevious"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_media_previous"/>
+
+        <ImageButton
+            android:id="@+id/btnPause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_media_pause"/>
+
+        <ImageButton
+            android:id="@+id/btnPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_media_play"/>
+
+        <ImageButton
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_media_next"/>
+    </LinearLayout>
+
+</LinearLayout>
